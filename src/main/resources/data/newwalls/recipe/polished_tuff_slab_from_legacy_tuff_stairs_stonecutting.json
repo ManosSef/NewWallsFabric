@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "newwalls:tuff_stairs",
-  "result": {
-    "id": "minecraft:polished_tuff_slab",
-    "count": 2
-  }
-}

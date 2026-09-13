@@ -7,7 +7,9 @@
   "authors": [
     "ManosSef"
   ],
-  "contact": {},
+  "contact": {
+    "issues": "https://github.com/ManosSef/NewWallsFabric/issues"
+  },
   "license": "MIT",
   "icon": "pack.png",
   "environment": "*",
