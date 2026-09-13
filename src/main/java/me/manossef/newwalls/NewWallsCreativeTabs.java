@@ -1,6 +1,7 @@
 package me.manossef.newwalls;
 
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
+import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
@@ -10,10 +11,10 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 
 public class NewWallsCreativeTabs {
-    public static final ResourceKey<CreativeModeTab> CUSTOM_CREATIVE_TAB_KEY = ResourceKey.create(
+    public static final ResourceKey<CreativeModeTab> CREATIVE_TAB_KEY = ResourceKey.create(
         BuiltInRegistries.CREATIVE_MODE_TAB.key(), Identifier.fromNamespaceAndPath(NewWalls.MOD_ID, "creative_tab")
     );
-    public static final CreativeModeTab CUSTOM_CREATIVE_TAB = FabricCreativeModeTab.builder()
+    public static final CreativeModeTab CREATIVE_TAB = FabricCreativeModeTab.builder()
         .icon(() -> new ItemStack(Items.COBBLESTONE_WALL))
         .title(Component.translatable("itemGroup.newwalls"))
         .displayItems((_, output) -> {
@@ -86,5 +87,6 @@ public class NewWallsCreativeTabs {
         }).build();
 
     public static void initialize() {
+        Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, CREATIVE_TAB_KEY, CREATIVE_TAB);
     }
 }
