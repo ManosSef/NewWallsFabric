@@ -65,8 +65,5 @@
     "block.newwalls.smooth_stone_stairs": "Smooth Stone Stairs",
     "block.newwalls.smooth_stone_wall": "Smooth Stone Wall",
     "block.newwalls.stone_wall": "Stone Wall",
-    "block.newwalls.tuff_slab": "Tuff Slab",
-    "block.newwalls.tuff_stairs": "Tuff Stairs",
-    "block.newwalls.tuff_wall": "Tuff Wall",
     "itemGroup.newwalls": "New Slabs, Stairs & Walls"
 }
