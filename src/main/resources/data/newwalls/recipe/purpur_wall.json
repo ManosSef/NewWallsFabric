@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "newwalls",
+  "pattern": [
+    "OOO",
+    "OOO"
+  ],
+  "key": {
+    "O": "minecraft:purpur_block"
+  },
+  "result": {
+    "id": "newwalls:purpur_wall",
+    "count": 6
+  }
+}

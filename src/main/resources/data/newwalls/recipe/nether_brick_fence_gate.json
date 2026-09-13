@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "newwalls",
+  "pattern": [
+    "/O/",
+    "/O/"
+  ],
+  "key": {
+    "O": "minecraft:nether_bricks",
+    "/": "minecraft:nether_brick"
+  },
+  "result": {
+    "id": "newwalls:nether_brick_fence_gate",
+    "count": 1
+  }
+}

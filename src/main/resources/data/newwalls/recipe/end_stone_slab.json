@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "newslabs",
+  "pattern": [
+    "OOO"
+  ],
+  "key": {
+    "O": "minecraft:end_stone"
+  },
+  "result": {
+    "id": "newwalls:end_stone_slab",
+    "count": 6
+  }
+}

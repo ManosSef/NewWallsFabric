@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "newwalls",
+  "pattern": [
+    "OOO",
+    "OOO"
+  ],
+  "key": {
+    "O": "minecraft:end_stone"
+  },
+  "result": {
+    "id": "newwalls:end_stone_wall",
+    "count": 6
+  }
+}

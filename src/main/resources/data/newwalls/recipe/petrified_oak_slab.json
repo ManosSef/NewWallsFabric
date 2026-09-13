@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "ingredient": "minecraft:oak_slab",
+  "result": {
+    "id": "minecraft:petrified_oak_slab"
+  },
+  "experience": 2,
+  "cookingtime": 200
+}

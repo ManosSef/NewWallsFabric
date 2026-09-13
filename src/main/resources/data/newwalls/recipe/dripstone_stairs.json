@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "newstairs",
+  "pattern": [
+    "O  ",
+    "OO ",
+    "OOO"
+  ],
+  "key": {
+    "O": "minecraft:dripstone_block"
+  },
+  "result": {
+    "id": "newwalls:dripstone_stairs",
+    "count": 4
+  }
+}

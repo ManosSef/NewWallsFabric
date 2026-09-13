@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:diorite_stairs",
+  "result": {
+    "id": "newwalls:polished_diorite_brick_slab",
+    "count": 2
+  }
+}

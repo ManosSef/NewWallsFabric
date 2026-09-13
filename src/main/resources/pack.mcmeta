@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "Resources for New Slabs, Stairs & Walls",
+    "max_format": 107,
+    "min_format": [
+      107,
+      1
+    ]
+  }
+}

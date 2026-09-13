@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "newwalls:cut_sandstone_stairs",
+  "result": {
+    "id": "minecraft:cut_sandstone_slab",
+    "count": 2
+  }
+}

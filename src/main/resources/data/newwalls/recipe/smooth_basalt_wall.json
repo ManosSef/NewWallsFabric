@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "newwalls",
+  "pattern": [
+    "OOO",
+    "OOO"
+  ],
+  "key": {
+    "O": "minecraft:smooth_basalt"
+  },
+  "result": {
+    "id": "newwalls:smooth_basalt_wall",
+    "count": 6
+  }
+}

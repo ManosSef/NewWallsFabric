@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "newwalls:block/polished_granite_bricks",
+    "particle": "newwalls:block/polished_granite_bricks"
+  }
+}

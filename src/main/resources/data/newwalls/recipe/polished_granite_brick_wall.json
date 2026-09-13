@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "newwalls",
+  "pattern": [
+    "OOO",
+    "OOO"
+  ],
+  "key": {
+    "O": "newwalls:polished_granite_bricks"
+  },
+  "result": {
+    "id": "newwalls:polished_granite_brick_wall",
+    "count": 6
+  }
+}

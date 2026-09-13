@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:quartz_stairs",
+  "result": {
+    "id": "minecraft:quartz_slab",
+    "count": 2
+  }
+}

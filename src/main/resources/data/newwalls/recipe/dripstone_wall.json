@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "newwalls",
+  "pattern": [
+    "OOO",
+    "OOO"
+  ],
+  "key": {
+    "O": "minecraft:dripstone_block"
+  },
+  "result": {
+    "id": "newwalls:dripstone_wall",
+    "count": 6
+  }
+}

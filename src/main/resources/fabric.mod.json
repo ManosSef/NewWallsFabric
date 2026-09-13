@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "newwalls",
+  "version": "${version}",
+  "name": "New Slabs, Stairs & Walls",
+  "description": "",
+  "authors": [
+    "ManosSef"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "pack.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.manossef.newwalls.client.NewWallsClient"
+    ],
+    "main": [
+      "me.manossef.newwalls.NewWalls"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
