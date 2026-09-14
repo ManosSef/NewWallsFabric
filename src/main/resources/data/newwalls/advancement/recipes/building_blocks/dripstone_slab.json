@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:dripstone_slab"
+        "recipes": [
+          "newwalls:dripstone_slab"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

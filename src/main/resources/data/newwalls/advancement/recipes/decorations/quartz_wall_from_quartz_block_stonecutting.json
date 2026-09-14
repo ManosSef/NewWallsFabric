@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:quartz_wall_from_quartz_block_stonecutting"
+        "recipes": [
+          "newwalls:quartz_wall_from_quartz_block_stonecutting"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

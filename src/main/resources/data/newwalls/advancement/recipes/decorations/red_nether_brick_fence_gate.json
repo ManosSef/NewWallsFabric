@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:red_nether_brick_fence_gate"
+        "recipes": [
+          "newwalls:red_nether_brick_fence_gate"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

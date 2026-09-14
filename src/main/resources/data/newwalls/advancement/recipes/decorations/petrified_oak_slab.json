@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:petrified_oak_slab"
+        "recipes": [
+          "newwalls:petrified_oak_slab"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

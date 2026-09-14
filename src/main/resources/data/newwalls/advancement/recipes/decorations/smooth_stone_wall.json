@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:smooth_stone_wall"
+        "recipes": [
+          "newwalls:smooth_stone_wall"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:cut_sandstone_stairs"
+        "recipes": [
+          "newwalls:cut_sandstone_stairs"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

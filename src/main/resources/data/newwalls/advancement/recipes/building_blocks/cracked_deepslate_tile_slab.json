@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:cracked_deepslate_tile_slab"
+        "recipes": [
+          "newwalls:cracked_deepslate_tile_slab"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

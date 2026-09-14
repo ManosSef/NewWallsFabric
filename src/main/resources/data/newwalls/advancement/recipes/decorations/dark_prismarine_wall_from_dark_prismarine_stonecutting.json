@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:dark_prismarine_wall_from_dark_prismarine_stonecutting"
+        "recipes": [
+          "newwalls:dark_prismarine_wall_from_dark_prismarine_stonecutting"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

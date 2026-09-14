@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:cracked_deepslate_tile_wall_from_cracked_deepslate_tiles_stonecutting"
+        "recipes": [
+          "newwalls:cracked_deepslate_tile_wall_from_cracked_deepslate_tiles_stonecutting"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

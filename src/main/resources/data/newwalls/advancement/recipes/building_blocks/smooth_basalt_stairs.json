@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:smooth_basalt_stairs"
+        "recipes": [
+          "newwalls:smooth_basalt_stairs"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:diorite_slab_from_diorite_stairs_stonecutting"
+        "recipes": [
+          "newwalls:diorite_slab_from_diorite_stairs_stonecutting"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:granite_slab_from_granite_stairs_stonecutting"
+        "recipes": [
+          "newwalls:granite_slab_from_granite_stairs_stonecutting"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

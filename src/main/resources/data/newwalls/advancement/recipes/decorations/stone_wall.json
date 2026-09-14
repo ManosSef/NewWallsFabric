@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:stone_wall"
+        "recipes": [
+          "newwalls:stone_wall"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:quartz_brick_fence"
+        "recipes": [
+          "newwalls:quartz_brick_fence"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

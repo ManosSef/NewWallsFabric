@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:polished_cinnabar_slab_from_cinnabar_stairs_stonecutting"
+        "recipes": [
+          "newwalls:polished_cinnabar_slab_from_cinnabar_stairs_stonecutting"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

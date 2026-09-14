@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:smooth_quartz_wall_from_smooth_quartz_stonecutting"
+        "recipes": [
+          "newwalls:smooth_quartz_wall_from_smooth_quartz_stonecutting"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

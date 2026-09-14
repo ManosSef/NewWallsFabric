@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:polished_sulfur_slab_from_polished_sulfur_stairs_stonecutting"
+        "recipes": [
+          "newwalls:polished_sulfur_slab_from_polished_sulfur_stairs_stonecutting"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:calcite_slab"
+        "recipes": [
+          "newwalls:calcite_slab"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

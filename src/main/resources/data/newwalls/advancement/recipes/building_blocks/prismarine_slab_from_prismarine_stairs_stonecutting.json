@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:prismarine_slab_from_prismarine_stairs_stonecutting"
+        "recipes": [
+          "newwalls:prismarine_slab_from_prismarine_stairs_stonecutting"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

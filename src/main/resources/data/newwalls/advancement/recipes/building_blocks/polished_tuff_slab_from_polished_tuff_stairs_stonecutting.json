@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:polished_tuff_slab_from_polished_tuff_stairs_stonecutting"
+        "recipes": [
+          "newwalls:polished_tuff_slab_from_polished_tuff_stairs_stonecutting"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

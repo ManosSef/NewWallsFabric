@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:deepslate_tile_slab_from_cobbled_deepslate_stairs_stonecutting"
+        "recipes": [
+          "newwalls:deepslate_tile_slab_from_cobbled_deepslate_stairs_stonecutting"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

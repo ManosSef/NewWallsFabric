@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:dripstone_wall_from_dripstone_block_stonecutting"
+        "recipes": [
+          "newwalls:dripstone_wall_from_dripstone_block_stonecutting"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

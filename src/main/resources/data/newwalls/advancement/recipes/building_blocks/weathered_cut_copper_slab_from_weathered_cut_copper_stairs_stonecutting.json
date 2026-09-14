@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:weathered_cut_copper_slab_from_weathered_cut_copper_stairs_stonecutting"
+        "recipes": [
+          "newwalls:weathered_cut_copper_slab_from_weathered_cut_copper_stairs_stonecutting"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

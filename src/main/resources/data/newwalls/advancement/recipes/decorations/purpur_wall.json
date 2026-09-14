@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:purpur_wall"
+        "recipes": [
+          "newwalls:purpur_wall"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

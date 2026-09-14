@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:end_stone_slab"
+        "recipes": [
+          "newwalls:end_stone_slab"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

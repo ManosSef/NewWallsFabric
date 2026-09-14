@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:polished_andesite_slab_from_polished_andesite_stairs_stonecutting"
+        "recipes": [
+          "newwalls:polished_andesite_slab_from_polished_andesite_stairs_stonecutting"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

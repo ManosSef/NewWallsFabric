@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:cracked_polished_blackstone_brick_slab"
+        "recipes": [
+          "newwalls:cracked_polished_blackstone_brick_slab"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

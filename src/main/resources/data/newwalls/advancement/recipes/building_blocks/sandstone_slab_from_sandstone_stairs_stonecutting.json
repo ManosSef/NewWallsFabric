@@ -13,7 +13,9 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:sandstone_slab_from_sandstone_stairs_stonecutting"
+        "recipes": [
+          "newwalls:sandstone_slab_from_sandstone_stairs_stonecutting"
+        ]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

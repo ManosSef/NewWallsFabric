@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brown_concrete_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brown_concrete_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": [
+          "newwalls:brown_concrete_slab_from_brown_concrete_stairs_stonecutting"
+        ]
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_brown_concrete_stairs"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "newwalls:brown_concrete_slab_from_brown_concrete_stairs_stonecutting"
+    ]
+  }
+}
