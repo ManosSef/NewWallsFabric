@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "mud_brick_recipe_unlocker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:mud_bricks"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "newwalls:mud_brick_stairs_to_slabs"
+    ]
+  }
+}

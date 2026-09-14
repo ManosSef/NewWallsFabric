@@ -121,13 +121,13 @@ public class NewWallsBlocks {
     private static Block register(String id, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties properties) {
         Block block = register(blockKey(id), blockFactory, properties);
         ResourceKey<Item> itemId = itemKey(id);
-        BlockItem blockItem = new BlockItem(block, new Item.Properties().useBlockDescriptionPrefix().setId(itemId));
+        BlockItem blockItem = new BlockItem(block, new Item.Properties());
         Registry.register(BuiltInRegistries.ITEM, itemId, blockItem);
         return block;
     }
 
     private static Block register(ResourceKey<Block> id, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties properties) {
-        Block block = blockFactory.apply(properties.setId(id));
+        Block block = blockFactory.apply(properties);
         return Registry.register(BuiltInRegistries.BLOCK, id, block);
     }
 

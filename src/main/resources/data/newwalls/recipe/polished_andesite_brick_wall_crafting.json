@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "newwalls",
+  "pattern": [
+    "OOO",
+    "OOO"
+  ],
+  "key": {
+    "O": {
+      "item": "newwalls:polished_andesite_bricks"
+    }
+  },
+  "result": {
+    "id": "newwalls:polished_andesite_brick_wall",
+    "count": 6
+  }
+}

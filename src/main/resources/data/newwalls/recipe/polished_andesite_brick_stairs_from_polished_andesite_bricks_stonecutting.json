@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "newwalls:polished_andesite_bricks",
-  "result": {
-    "id": "newwalls:polished_andesite_brick_stairs",
-    "count": 1
-  }
-}

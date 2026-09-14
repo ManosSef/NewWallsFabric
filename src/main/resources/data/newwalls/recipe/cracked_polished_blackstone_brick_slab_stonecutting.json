@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:cracked_polished_blackstone_bricks"
+    },
+    {
+      "item": "newwalls:cracked_polished_blackstone_brick_stairs"
+    }
+  ],
+  "result": {
+    "id": "newwalls:cracked_polished_blackstone_brick_slab",
+    "count": 2
+  }
+}

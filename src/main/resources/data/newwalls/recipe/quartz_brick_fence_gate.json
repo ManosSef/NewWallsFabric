@@ -1,14 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "group": "newwalls",
   "pattern": [
     "/O/",
     "/O/"
   ],
   "key": {
-    "O": "minecraft:quartz_bricks",
-    "/": "minecraft:quartz"
+    "/": {
+      "item": "minecraft:quartz"
+    },
+    "O": {
+      "item": "minecraft:quartz_bricks"
+    }
   },
   "result": {
     "id": "newwalls:quartz_brick_fence_gate",

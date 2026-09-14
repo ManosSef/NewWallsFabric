@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "tuff_stairs_to_slabs_recipe_unlocker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:tuff"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "newwalls:tuff_stairs_to_slabs",
+      "newwalls:polished_tuff_stairs_to_slabs",
+      "newwalls:tuff_brick_stairs_to_slabs"
+    ]
+  }
+}

@@ -1,14 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "group": "newwalls",
   "pattern": [
     "/O/",
     "/O/"
   ],
   "key": {
-    "O": "minecraft:nether_bricks",
-    "/": "minecraft:nether_brick"
+    "/": {
+      "item": "minecraft:nether_brick"
+    },
+    "O": {
+      "item": "minecraft:nether_bricks"
+    }
   },
   "result": {
     "id": "newwalls:nether_brick_fence_gate",

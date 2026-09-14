@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "newslabs",
+  "pattern": [
+    "OOO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:calcite"
+    }
+  },
+  "result": {
+    "id": "newwalls:calcite_slab",
+    "count": 6
+  }
+}

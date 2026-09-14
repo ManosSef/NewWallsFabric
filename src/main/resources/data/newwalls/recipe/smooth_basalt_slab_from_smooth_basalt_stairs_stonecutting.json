@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "newwalls:smooth_basalt_stairs",
-  "result": {
-    "id": "newwalls:smooth_basalt_slab",
-    "count": 2
-  }
-}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "newslabs",
+  "pattern": [
+    "OOO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:smooth_basalt"
+    }
+  },
+  "result": {
+    "id": "newwalls:smooth_basalt_slab",
+    "count": 6
+  }
+}

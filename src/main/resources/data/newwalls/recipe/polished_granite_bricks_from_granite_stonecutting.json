@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:granite",
-  "result": {
-    "id": "newwalls:polished_granite_bricks",
-    "count": 1
-  }
-}

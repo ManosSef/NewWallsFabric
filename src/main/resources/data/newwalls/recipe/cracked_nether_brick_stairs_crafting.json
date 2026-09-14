@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "newstairs",
+  "pattern": [
+    "O  ",
+    "OO ",
+    "OOO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:cracked_nether_bricks"
+    }
+  },
+  "result": {
+    "id": "newwalls:cracked_nether_brick_stairs",
+    "count": 4
+  }
+}

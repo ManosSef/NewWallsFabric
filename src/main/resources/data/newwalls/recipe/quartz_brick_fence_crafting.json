@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "newwalls",
+  "pattern": [
+    "O/O",
+    "O/O"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:quartz_bricks"
+    },
+    "/": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "id": "newwalls:quartz_brick_fence",
+    "count": 6
+  }
+}

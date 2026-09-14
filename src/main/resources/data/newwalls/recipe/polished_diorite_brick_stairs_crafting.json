@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "newstairs",
+  "pattern": [
+    "O  ",
+    "OO ",
+    "OOO"
+  ],
+  "key": {
+    "O": {
+      "item": "newwalls:polished_diorite_bricks"
+    }
+  },
+  "result": {
+    "id": "newwalls:polished_diorite_brick_stairs",
+    "count": 4
+  }
+}

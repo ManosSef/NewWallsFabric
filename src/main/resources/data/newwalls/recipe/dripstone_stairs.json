@@ -8,7 +8,9 @@
     "OOO"
   ],
   "key": {
-    "O": "minecraft:dripstone_block"
+    "O": {
+      "item": "minecraft:dripstone_block"
+    }
   },
   "result": {
     "id": "newwalls:dripstone_stairs",

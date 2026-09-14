@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "newwalls:polished_andesite_bricks"
+    },
+    {
+      "item": "minecraft:polished_andesite"
+    },
+    {
+      "item": "minecraft:andesite"
+    }
+  ],
+  "result": {
+    "id": "newwalls:polished_andesite_brick_wall",
+    "count": 1
+  }
+}

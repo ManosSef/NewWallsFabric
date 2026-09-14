@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "newslabs",
+  "pattern": [
+    "OOO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:cracked_polished_blackstone_bricks"
+    }
+  },
+  "result": {
+    "id": "newwalls:cracked_polished_blackstone_brick_slab",
+    "count": 6
+  }
+}

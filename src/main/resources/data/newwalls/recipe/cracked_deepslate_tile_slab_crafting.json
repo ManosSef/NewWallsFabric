@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "newslabs",
+  "pattern": [
+    "OOO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:cracked_deepslate_tiles"
+    }
+  },
+  "result": {
+    "id": "newwalls:cracked_deepslate_tile_slab",
+    "count": 6
+  }
+}

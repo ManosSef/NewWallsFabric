@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:end_stone",
+  "ingredient": {
+    "item": "minecraft:end_stone"
+  },
   "result": {
     "id": "newwalls:end_stone_stairs",
     "count": 1

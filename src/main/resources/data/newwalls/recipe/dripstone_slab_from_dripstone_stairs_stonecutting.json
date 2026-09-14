@@ -1,6 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "newwalls:dripstone_stairs",
+  "ingredient": {
+    "item": "newwalls:dripstone_stairs"
+  },
   "result": {
     "id": "newwalls:dripstone_slab",
     "count": 2

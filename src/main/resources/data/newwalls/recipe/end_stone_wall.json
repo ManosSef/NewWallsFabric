@@ -7,7 +7,9 @@
     "OOO"
   ],
   "key": {
-    "O": "minecraft:end_stone"
+    "O": {
+      "item": "minecraft:end_stone"
+    }
   },
   "result": {
     "id": "newwalls:end_stone_wall",

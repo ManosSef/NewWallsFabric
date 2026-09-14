@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "newbricks",
+  "pattern": [
+    "OO",
+    "OO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:polished_diorite"
+    }
+  },
+  "result": {
+    "id": "newwalls:polished_diorite_bricks",
+    "count": 4
+  }
+}

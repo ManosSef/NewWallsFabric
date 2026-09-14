@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:calcite"
+    },
+    {
+      "item": "newwalls:calcite_stairs"
+    }
+  ],
+  "result": {
+    "id": "newwalls:calcite_slab",
+    "count": 2
+  }
+}

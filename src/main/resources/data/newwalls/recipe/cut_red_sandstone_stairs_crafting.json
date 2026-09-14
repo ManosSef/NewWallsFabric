@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "newstairs",
+  "pattern": [
+    "O  ",
+    "OO ",
+    "OOO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:cut_red_sandstone"
+    }
+  },
+  "result": {
+    "id": "newwalls:cut_red_sandstone_stairs",
+    "count": 4
+  }
+}
