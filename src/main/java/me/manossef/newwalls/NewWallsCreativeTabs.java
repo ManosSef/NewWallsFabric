@@ -1,6 +1,6 @@
 package me.manossef.newwalls;
 
-import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
@@ -14,10 +14,10 @@ public class NewWallsCreativeTabs {
     public static final ResourceKey<CreativeModeTab> CREATIVE_TAB_KEY = ResourceKey.create(
         BuiltInRegistries.CREATIVE_MODE_TAB.key(), Identifier.fromNamespaceAndPath(NewWalls.MOD_ID, "creative_tab")
     );
-    public static final CreativeModeTab CREATIVE_TAB = FabricCreativeModeTab.builder()
+    public static final CreativeModeTab CREATIVE_TAB = FabricItemGroup.builder()
         .icon(() -> new ItemStack(Items.COBBLESTONE_WALL))
         .title(Component.translatable("itemGroup.newwalls"))
-        .displayItems((_, output) -> {
+        .displayItems((i, output) -> {
             output.accept(NewWallsBlocks.STONE_WALL);
             output.accept(NewWallsBlocks.SMOOTH_STONE_STAIRS);
             output.accept(NewWallsBlocks.SMOOTH_STONE_WALL);
