@@ -3,7 +3,7 @@
   "id": "newwalls",
   "version": "${version}",
   "name": "New Slabs, Stairs & Walls",
-  "description": "",
+  "description": "This mod adds some new blocks, slabs, stairs and walls to the game.",
   "authors": [
     "ManosSef"
   ],
@@ -24,6 +24,6 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric-api": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": ">=${minecraft_version}"
   }
 }
