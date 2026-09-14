@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_sulfur_stairs": {
+    "has_stone_stairs": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:sulfur_stairs"
+            "items": "minecraft:stone_stairs"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "newwalls:polished_sulfur_slab_from_sulfur_stairs_stonecutting"
+        "recipe": "newwalls:cobblestone_slab_from_stone_stairs_stonecutting"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_sulfur_stairs"
+      "has_stone_stairs"
     ]
   ],
   "rewards": {
     "recipes": [
-      "newwalls:polished_sulfur_slab_from_sulfur_stairs_stonecutting"
+      "newwalls:cobblestone_slab_from_stone_stairs_stonecutting"
     ]
   }
 }

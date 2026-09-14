@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:polished_cinnabar_stairs",
-  "result": {
-    "id": "minecraft:polished_cinnabar_slab",
-    "count": 2
-  }
-}

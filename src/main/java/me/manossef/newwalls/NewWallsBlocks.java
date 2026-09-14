@@ -2,7 +2,7 @@ package me.manossef.newwalls;
 
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.references.BlockItemId;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
@@ -119,10 +119,10 @@ public class NewWallsBlocks {
     }
 
     private static Block register(String id, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties properties) {
-        BlockItemId bid = create(id);
-        Block block = register(bid.block(), blockFactory, properties);
-        BlockItem blockItem = new BlockItem(block, new Item.Properties().useBlockDescriptionPrefix().setId(bid.item()));
-        Registry.register(BuiltInRegistries.ITEM, bid.item(), blockItem);
+        Block block = register(blockKey(id), blockFactory, properties);
+        ResourceKey<Item> itemId = itemKey(id);
+        BlockItem blockItem = new BlockItem(block, new Item.Properties().useBlockDescriptionPrefix().setId(itemId));
+        Registry.register(BuiltInRegistries.ITEM, itemId, blockItem);
         return block;
     }
 
@@ -131,8 +131,11 @@ public class NewWallsBlocks {
         return Registry.register(BuiltInRegistries.BLOCK, id, block);
     }
 
-    private static BlockItemId create(String name) {
-        Identifier id = Identifier.fromNamespaceAndPath(NewWalls.MOD_ID, name);
-        return BlockItemId.create(id, id);
+    private static ResourceKey<Block> blockKey(String name) {
+        return ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(NewWalls.MOD_ID, name));
+    }
+
+    private static ResourceKey<Item> itemKey(String name) {
+        return ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(NewWalls.MOD_ID, name));
     }
 }
