@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_calcite": {
+    "has_calcite_stairs": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:calcite"
+            "items": "minecraft:calcite_stairs"
           }
         ]
       },
@@ -14,7 +14,7 @@
     "has_the_recipe": {
       "conditions": {
         "recipes": [
-          "newwalls:calcite_wall_from_calcite_stonecutting"
+          "newwalls:polished_calcite_slab_from_calcite_stairs_stonecutting"
         ]
       },
       "trigger": "minecraft:recipe_unlocked"
@@ -23,12 +23,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_calcite"
+      "has_calcite_stairs"
     ]
   ],
   "rewards": {
     "recipes": [
-      "newwalls:calcite_wall_from_calcite_stonecutting"
+      "newwalls:polished_calcite_slab_from_calcite_stairs_stonecutting"
     ]
   }
 }

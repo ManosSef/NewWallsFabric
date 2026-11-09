@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_calcite": {
+    "has_packed_ice_brick_stairs": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:calcite"
+            "items": "minecraft:packed_ice_brick_stairs"
           }
         ]
       },
@@ -14,7 +14,7 @@
     "has_the_recipe": {
       "conditions": {
         "recipes": [
-          "newwalls:calcite_wall"
+          "newwalls:packed_ice_brick_slab_from_packed_ice_brick_stairs_stonecutting"
         ]
       },
       "trigger": "minecraft:recipe_unlocked"
@@ -23,12 +23,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_calcite"
+      "has_packed_ice_brick_stairs"
     ]
   ],
   "rewards": {
     "recipes": [
-      "newwalls:calcite_wall"
+      "newwalls:packed_ice_brick_slab_from_packed_ice_brick_stairs_stonecutting"
     ]
   }
 }

@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "newwalls:calcite_stairs"
+            "items": "minecraft:calcite_stairs"
           }
         ]
       },

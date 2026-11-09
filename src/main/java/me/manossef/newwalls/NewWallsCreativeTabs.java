@@ -78,9 +78,6 @@ public class NewWallsCreativeTabs {
             output.accept(NewWallsBlocks.QUARTZ_BRICK_FENCE);
             output.accept(NewWallsBlocks.QUARTZ_BRICK_FENCE_GATE);
             output.accept(NewWallsBlocks.SMOOTH_QUARTZ_WALL);
-            output.accept(NewWallsBlocks.CALCITE_STAIRS);
-            output.accept(NewWallsBlocks.CALCITE_SLAB);
-            output.accept(NewWallsBlocks.CALCITE_WALL);
             output.accept(NewWallsBlocks.DRIPSTONE_STAIRS);
             output.accept(NewWallsBlocks.DRIPSTONE_SLAB);
             output.accept(NewWallsBlocks.DRIPSTONE_WALL);
