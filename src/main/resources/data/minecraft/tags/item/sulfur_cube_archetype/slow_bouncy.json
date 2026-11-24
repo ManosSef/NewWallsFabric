@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "newwalls:polished_granite_bricks",
+    "newwalls:polished_diorite_bricks",
+    "newwalls:polished_andesite_bricks"
+  ]
+}
